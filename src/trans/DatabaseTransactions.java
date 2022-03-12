@@ -411,8 +411,8 @@ public class DatabaseTransactions {
 		 * - Read query 2 must not be blocked waiting on update.
 		 * - Update is not blocked waiting for read.
 		 */
-		con.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE); // Note: This is an example. It is not
-																			// correct.
+		// Note: This is an example. It is not correct.																			
+		con.setTransactionIsolation(Connection.TRANSACTION_SERIALIZABLE); 
 	}
 
 	public void setIsolationLevelTest4(Connection con) throws SQLException {
