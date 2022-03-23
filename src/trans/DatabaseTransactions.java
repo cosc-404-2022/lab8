@@ -108,7 +108,7 @@ public class DatabaseTransactions {
 	public Connection connect() throws SQLException {
 		String url = "jdbc:sqlserver://localhost:1433;DatabaseName=" + DATABASE_NAME;
 		String uid = "sa";
-		String pw = "mssql404";
+		String pw = "MSsql404!";
 
 		System.out.println("Connecting to database.");
 		con = DriverManager.getConnection(url, uid, pw);
